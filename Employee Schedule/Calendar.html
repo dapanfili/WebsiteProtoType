@@ -8,10 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
-
-  
-<h1 id = "heading">Calendar</h1>
-
+<h1 id="heading">Best Community Service</h1>
 <div class="month">      
   <ul>
     <li class="prev" onclick="prev()">&#10094;</li>
@@ -34,6 +31,18 @@
 </ul>
 
 <ul class="days" id = "days"> </ul>
+	
+<div id="modalForEvent" class="modal">
+
+  <div class="popup-Event">
+    <span class="close">&times;</span>
+    <div>Name: <div id = "modelName" style="display:inline;">Some text in the Modal..</div></div>
+    <div>Date: <div id = "modelDate" style="display:inline;">Some text in the Modal..</div></div>
+    <div id = "modelButtonDiv" style="text-align:center;margin-top: 10px;"><input class = "popupButton" id="popupButton" type="button" value="View Event"></input></div>
+  </div>
+
+</div>	
+
 </body>
 <script src="Calendar.js">
 </script>
