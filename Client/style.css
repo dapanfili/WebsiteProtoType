@@ -9,7 +9,9 @@ body {font-family: Verdana, sans-serif;}
   background: #c9ce96;
   text-align: center;
 }
-
+#clientHeading{
+	text-align: center
+}
 /* Month list */
 .month ul {
   margin: 0;

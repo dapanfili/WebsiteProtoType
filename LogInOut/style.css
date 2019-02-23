@@ -6,7 +6,7 @@ body {font-family: Verdana, sans-serif;}
 .month {
   padding: 70px 25px;
   width: 100%;
-  background: #1abc9c;
+  background: #1A4E5F;
   text-align: center;
 }
 
@@ -74,14 +74,14 @@ body {font-family: Verdana, sans-serif;}
 }
 .days a :hover{
   padding: 5px;
-  background: #1abc9c;
+  background: #1A4E5F;
   color: white !important
 }
 
 /* Highlight the "current" day */
 .days a:active {
   padding: 5px;
-  background: #1abc9c;
+  background: #1A4E5F;
   color: white !important;
   cursor: default;
 
@@ -90,7 +90,7 @@ body {font-family: Verdana, sans-serif;}
 
 .days a:hover {
   padding: 5px;
-  background: #1abc9c;
+  background: #1A4E5F;
   color: white !important
 }
 /* Bordered form */
@@ -112,12 +112,12 @@ input[type=date], input[type=text] {
 }
 
 #empBckGrnd{
-	background: #1abc9c
+	background: #1A4E5F
 }
 #empBtn{
   background-color: white;
   border: none;
-  color: #1abc9c;
+  color: #1A4E5F;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -126,7 +126,7 @@ input[type=date], input[type=text] {
   width:250;
 }
 #empHomeBtn{
-  background-color: #1abc9c;
+  background-color: #1A4E5F;
   border: none;
   color: white;
   text-align: center;
@@ -136,10 +136,10 @@ input[type=date], input[type=text] {
   height:75px;
   width:300px;
 }
-#empPayDonate{
+#volunteerbtn{
   background-color: #FFFFFF;
   border: none;
-  color: #1abc9c;
+  color: #1A4E5F;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -147,14 +147,13 @@ input[type=date], input[type=text] {
   height:75px;
   width:300px;
 }
-
 #empHomeBtnDiv{
 	text-align: center;
 }
 
 /* Set a style for all buttons */
 button {
-  background-color: #1abc9c;
+  background-color: #1A4E5F;
   color: white;
   padding: 14px 20px;
   margin: 8px 0;
@@ -167,19 +166,14 @@ button {
 button:hover {
   opacity: 0.8;
 }
-table {
-    border: none;
-}
-#newTable {
-    border: thick  black;
-    background-color: white;
-}
-#empBckGrnd {
-}
-#empHomeScrn {
+#volunteer {
     text-align: center;
 }
-#payment {
+#LogIn h1 {
+    color: white;
+}
+#LogIn {
+    color: white;
     text-align: center;
 }
 
@@ -196,7 +190,7 @@ table {
 }
 /* Modal Content */
 .popup-Event {
-  background-color: #1abc9c;
+  background-color: #1A4E5F;
   color: white;
   margin: auto;
   padding: 20px;

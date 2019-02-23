@@ -155,6 +155,9 @@ button {
 button:hover {
   opacity: 0.8;
 }
+#rental {
+    text-align: center;
+}
 
 
 /* Change styles for span and cancel button on extra small screens */

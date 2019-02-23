@@ -9,7 +9,9 @@ body {font-family: Verdana, sans-serif;}
   background: #ceb696;
   text-align: center;
 }
-
+#donorHeading{
+	text-align: center
+}
 /* Month list */
 .month ul {
   margin: 0;

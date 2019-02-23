@@ -9,6 +9,9 @@ body {font-family: Verdana, sans-serif;}
   background: #a3e0a9;
   text-align: center;
 }
+#eventHeading{
+	text-align: center;
+}
 
 /* Month list */
 .month ul {
